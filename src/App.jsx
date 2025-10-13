@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import Wallet from './Wallet';
 
 const CONTRACT_ADDRESS = '0xa09d8624eae87e8b5f87b23fe694eea2d02dde2e';
 const TOKEN_SYMBOL = 'WTC';
@@ -28,6 +29,7 @@ export default function App() {
             <p className="text-xs text-gray-400">$WTC — community-driven DeFi token</p>
           </div>
         </div>
+        <Wallet/>
       </header>
 
       <main className="max-w-6xl mx-auto px-6 py-12">
