@@ -73,7 +73,7 @@ export default function ConnectWallet() {
       },
       showQrModal: true,
       metadata: {
-        name: "Wintercoin", // 👈 REQUIRED
+        name: "Wintercoins", // 👈 REQUIRED
         description: "BNB Smart Chain Wallet Connect",
         url: "https://wintercoins.vercel.app/", // 👈 your app URL (must match HTTPS if deployed)
       },
