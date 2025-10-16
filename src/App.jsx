@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import Wallet from './Wallet';
 
-const CONTRACT_ADDRESS = '0xa09d8624eae87e8b5f87b23fe694eea2d02dde2e'; 
+const CONTRACT_ADDRESS = '0xda96f2caaffd454db4a7b69c5af2f8b33a54ebea'; 
 const TOKEN_SYMBOL = 'WTC';
 
 export default function App() {
@@ -55,18 +55,18 @@ export default function App() {
               sandbox="allow-forms allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
             />
             {/* Overlay div to hide the connect button area */}
-            <div
+           { /*<div
               className="absolute bottom-0 left-0 w-full h-[80px] bg-gradient-to-t from-slate-900/80 to-transparent pointer-events-none rounded-b-lg"
               style={{
                 pointerEvents: 'auto', // block clicks to "Connect Wallet"
               }}
-            ></div>
+            ></div>*/}
           </div>
         </section>
       </main>
 
       <footer className="border-t border-gray-800 mt-12 py-6 text-center text-gray-400 text-sm">
-        © 2025 WinterCoin — Contract: {CONTRACT_ADDRESS}
+        © 2025 WinterCoin 
       </footer>
     </div>
   );
