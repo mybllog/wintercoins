@@ -66,7 +66,7 @@ export default function App() {
       </main>
 
       <footer className="border-t border-gray-800 mt-12 py-6 text-center text-gray-400 text-sm">
-        © 2025 WinterCoin 
+        © 2025 WinterCoin {CONTRACT_ADDRESS}
       </footer>
     </div>
   );
